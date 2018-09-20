@@ -1,0 +1,55 @@
+#container {
+    width: 1024px;
+    height: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(menubg.png);
+}
+
+@font-face {
+    font-family: bahnschrift;
+    src: url("bahnschrift.ttf")
+}
+
+#main {
+    font-family: bahnschrift;
+}
+body{
+    font-family: bahnschrift;
+    background-color: black;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#tlo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+
+#table {
+    font-size: 30px;
+    text-align: left;
+    weight: 850px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 280px;
+    left: 420px;
+}
+
+td:hover {background-color: #f5f5f5;}
+th:hover {background-color: #f5f5f5;}
